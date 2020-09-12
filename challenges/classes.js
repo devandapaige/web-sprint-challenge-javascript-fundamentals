@@ -24,7 +24,7 @@ class CuboidMaker2 {
 }
 class CubeMaker extends CuboidMaker2 {
   constructor(edge) {
-    super(edge);
+    super();
     this.edge = edge;
   }
   volume() {
